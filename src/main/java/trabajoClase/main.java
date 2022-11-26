@@ -10,7 +10,6 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
         //-----------------------------------------------------------SEMAMANA2 - RECURSIVIDAD ------------------------------------------------------------------
         /*
         //COMO EL METODO ES ESTATICO, NO SE PUEDE INSTANCIAR POR ESO SOLO SE LLAMA
@@ -35,8 +34,7 @@ public class main {
          */
         //------------------------------------------------PILA -usa la clase stack1 y node1-----------------------------------------
         /*
-        stack1<Integer> Pila2 = new stack1<Integer>();
-        
+        stack1<Integer> Pila2 = new stack1<Integer>();       
         Pila2.push(1);
         Pila2.push(2);
         Pila2.push(4);
@@ -68,22 +66,33 @@ public class main {
        // nuevaCola.enqueue(temp);
 
        // for (int i = 0; i < 100; i++) {
-
        //     nuevaCola.enqueue(i);
-
        // }
-
        // Lista Lista = new Lista();
         //Lista.insertar(new Persona(1,"P"));
         // Lista.insertar(new Persona(3,"P"));
         //  Lista.insertar(new Persona(2,"P"));
     
-          
-        ListaCircular Lista = new ListaCircular ();
-        Lista.insertar(new Persona(1,"P"));
-         Lista.insertar(new Persona(3,"P"));
-          Lista.insertar(new Persona(2,"P"));
+        //ListaCircular Lista = new ListaCircular ();
+        //Lista.insertar(new Persona(1,"P"));
+         //Lista.insertar(new Persona(3,"P"));
+          //Lista.insertar(new Persona(2,"P"));
+   
+      Arbol arbol = new Arbol();
+      arbol.inserta(50);
+      arbol.inserta(20);
+      arbol.inserta(80);
+      arbol.inserta(15);
+      arbol.inserta(30);
+      arbol.inserta(60);
+      arbol.inserta(40);
+      arbol.inserta(90);
+      arbol.inserta(75);
+      arbol.inserta(33);
+      arbol.inserta(82);
+
     }
+    
+   
+
 }
-
-
